@@ -19,7 +19,7 @@ public class Rogue extends Character {
 	_defense = 60;
     }
     public String about(){
-	String retStr;
+	String retStr="";
 	retStr+="Welcome to Rogue. You are quick, sneaky and pretty good in a fight";
 	retStr+="\t Type:" + _type + "\n\t Strength:" + _strength + "\n\t Attack:" + _attack + "\n\t Defense" + _defense + "\n\t Life:" + _hitPts;
 	return retStr;
