@@ -12,7 +12,7 @@ normalize X
 specialize X
 about - static, returns a String describing a Warrior, Monster, Mage, Rogue, etc
 */  
-public class Character {
+public abstract class Character {
 
     // ~~~~~~~~~~~ INSTANCE VARIABLES ~~~~~~~~~~~
     protected int _hitPts;
@@ -53,16 +53,19 @@ public class Character {
       return _hitPts > 0;
     }
 
-    public void specialize() {
+    public abstract void specialize() ;
+    /*{
       _attack *= 2;
       _defense *= .5;
     }
-
+*/
     //revert to normal mode
-    public void normalize() {
+    public abstract void normalize() ;
+    /*{
       _attack *= .5;
      _defense *= 2;
     }
+    */
     /*=============================================
       int attack(Character) -- simulates attack on a Monster
       pre:  Input not null
@@ -80,10 +83,11 @@ public class Character {
     }//end attack
 
 
-    public static String about () {
+    public abstract static String about () ;
+    /*{
       return _type;//types will all be initialized in constructors of type classes, not reinitialized bc static
     }
-
+  */
     /*=============================================
       void lowerHP(int) -- lowers life by input value
       pre:  Input >= 0
