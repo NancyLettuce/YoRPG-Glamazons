@@ -16,6 +16,10 @@ public class Monster extends Character {
       pre:  instance vars are declared
       post: initializes instance vars.
       =============================================*/
+      
+    public String about() {
+      return "hello";
+    }  
     public Monster() {
       super();
       _hitPts = 150;
