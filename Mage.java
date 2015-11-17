@@ -17,13 +17,13 @@ public class Mage extends Character {
     }
     
     public void normalize() {
-    	attack = .4;
-    	defense = 100;
+    	_attack = .4;
+    	_defense = 100;
     }
     
     public void specialize() {
-    	attack *= 2;
-    	defense *= .5;
+    	_attack *= 2;
+    	_defense *= .5;
     }
     
     public String about() {
