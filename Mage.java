@@ -7,7 +7,7 @@ public class Mage extends Character {
         _type="Mage";
         _name="Dumbledor";
     	_strength = 50;
-	    _defense = 100;//underdog 
+	_defense = 100;//underdog 
     }
     
     //overloaded constructor
@@ -27,7 +27,11 @@ public class Mage extends Character {
     }
     
     public String about() {
-    	return "Character: Mage \n\t HP = 125 \n\t Strength = 50 \n\t Defense = 100 \n\t Attack = .4 \n"
+    	String retStr = "";
+    	retStr += "Welcome to class Mage. You have above average defenses and attack rating, but are woefully lacking in the strength department";
+    	retStr+="\t Type:" + _type; + "\n\t Strength:" + _strength + "\n\t Attack:" + _attack + 
+    	"\n\t Defense" + _defense + "\n\t Life:" + _hitPts;
+    	return retStr;
     }
     
 }
