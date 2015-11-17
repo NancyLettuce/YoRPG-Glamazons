@@ -80,23 +80,23 @@ public class YoRPG {
 	    typenum = Integer.parseInt(in.readLine());
 	    if (typenum==1) {
 		pat = new Warrior(name);
-		pat.about();
+		System.out.println(pat.about());
 	    }
 	    if (typenum==2) {
 		pat = new Mage(name);
-		pat.about();
+		System.out.println(pat.about());
 	    }
 	    if (typenum==3) {
 		pat = new Rogue( name );
-		pat.about();
+		System.out.println(pat.about());
 	    }
 	    if (typenum==4) {
 		pat = new Barista( name );
-		pat.about();
+		System.out.println(pat.about());
 	    }
 	    if (typenum==5) {
 		pat = new Politician( name );
-		pat.about();
+		System.out.println(pat.about());
 	    }
 
 	}
