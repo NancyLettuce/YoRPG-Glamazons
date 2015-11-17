@@ -4,7 +4,7 @@ public class Rogue extends Character {
     public Rogue() {
         super();
         _type="Rogue";
-	    _defense = 60;//when you go Rogue you better be prepared
+	_defense = 60;//when you go Rogue you better be prepared
     }
     public Rogue(String name) {
         this();
@@ -12,11 +12,11 @@ public class Rogue extends Character {
     }
     public void specialize(){
 	_attack += .5;
-	_defence -=20;
+	_defense -=20;
     }
     public void normalize(){
 	_attack = .4;
-	_defence = 60;
+	_defense = 60;
     }
     public String about(){
 	String retStr;
