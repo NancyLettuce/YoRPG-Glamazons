@@ -28,17 +28,17 @@ public class Warrior extends Character {
     }
 
     public void normalize() {
-    	attack = .5;
-    	defense = 40;
+    	_attack = .5;
+    	_defense = 40;
     }
     
     public void specialize() {
-    	attack *= 2;
-    	defense *= .5;
+    	_attack *= 2;
+    	_defense *= .5;
     }
     
     public String about() {
-    	return "Character: Warrior \n \t HP = 125 \n\t Strength = 100 \n\t Defense = 40 \n\t Attack = .5 \n"
+    	return "Character: Warrior \n \t HP = 125 \n\t Strength = 100 \n\t Defense = 40 \n\t Attack = .5 \n";
     }
 
 }//end class Warrior
