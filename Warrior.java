@@ -13,7 +13,7 @@ public class Warrior extends Character {
       _hitPts = 125;
       _strength = 100;
       _defense = 40;
-      _attack = .4;
+      _attack = .5;
       _type= "Warrior";
     }
 
@@ -23,9 +23,26 @@ public class Warrior extends Character {
       post: initializes instance vars. _name is set to input String.
       =============================================*/
     public Warrior( String name ) {
-  this();
-  _name = name;
+        this();
+    _name = name;
     }
 
+    public void normalize() {
+    	attack = .5;
+    	defense = 40;
+    }
+    
+    public void specialize() {
+    	attack *= 2;
+    	defense *= .5;
+    }
+    
+    public String about() {
+    	return "Character: Warrior \n
+    	HP = 125 \n
+    	Strength = 100 \n
+    	Defense = 40 \n
+    	Attack = .5 \n"
+    }
 
 }//end class Warrior
