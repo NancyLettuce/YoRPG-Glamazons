@@ -39,9 +39,9 @@ public class Warrior extends Character {
     
     public String about() {
         String retStr="";
-        retStr+= "Welcome to class Warrior. Warriors have exceptional strength and attack rating, but due their egos have undertaken little defensive measures.";
-        retStr+="\t Type:" + _type + "\n\t Strength:" + _strength + "\n\t Attack:" + _attack + "\n\t Defense" + _defense + "\n\t Life:" + _hitPts;
-    	return retStr;
+        retStr+= "Welcome to class Warrior. Warriors have exceptional strength and attack rating, but due their egos have undertaken little defensive measures.\n";
+        	retStr+="\t Type: " + _type + "\n\t Strength: " + _strength + "\n\t Attack: " + _attack + "\n\t Defense: " + _defense + "\n\t Life: " + _hitPts+"";
+        return retStr;
     }
 
 }//end class Warrior
