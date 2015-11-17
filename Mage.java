@@ -27,11 +27,7 @@ public class Mage extends Character {
     }
     
     public String about() {
-    	return "Character: Mage \n
-    	HP = 125 \n
-    	Strength = 50 \n
-    	Defense = 100 \n
-    	Attack = .4 \n"
+    	return "Character: Mage \n\t HP = 125 \n\t Strength = 50 \n\t Defense = 100 \n\t Attack = .4 \n"
     }
     
 }
