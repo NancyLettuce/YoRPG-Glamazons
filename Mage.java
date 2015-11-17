@@ -29,8 +29,7 @@ public class Mage extends Character {
     public String about() {
     	String retStr = "";
     	retStr += "Welcome to class Mage. You have above average defenses and attack rating, but are woefully lacking in the strength department";
-    	retStr+="\t Type:" + _type; + "\n\t Strength:" + _strength + "\n\t Attack:" + _attack + 
-    	"\n\t Defense" + _defense + "\n\t Life:" + _hitPts;
+    	retStr+="\t Type:" + _type; + "\n\t Strength:" + _strength + "\n\t Attack:" + _attack + "\n\t Defense" + _defense + "\n\t Life:" + _hitPts+"";
     	return retStr;
     }
     
