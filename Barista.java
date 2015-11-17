@@ -14,6 +14,23 @@ public class Barista extends Character {
     	_strength = 200;//Baristas have mad guns from making lattes
 	    _attack = .2;//weaker
     }
+    
+    public void normalize() {
+    	_attack*=.5;
+    	_defense*=1.25;
+    }
+    public void specialize() {
+    	_attack*=2;
+    	_defense*=.8;
+    	
+    }
+    
+    public String about() {
+    	return "Welcome to class Barista! the creator of this role playing game happens to appreciate you very much. You got mad gunz \n from making those wonderful holiday lattes.";
+    }
+    
+    
+    
     public Barista(String name) {
         this();
         _name = name;
