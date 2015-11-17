@@ -83,7 +83,7 @@ public abstract class Character {
     }//end attack
 
 
-    public abstract static String about () ;
+    public abstract String about () ;
     /*{
       return _type;//types will all be initialized in constructors of type classes, not reinitialized bc static
     }
