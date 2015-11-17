@@ -38,11 +38,7 @@ public class Warrior extends Character {
     }
     
     public String about() {
-    	return "Character: Warrior \n
-    	HP = 125 \n
-    	Strength = 100 \n
-    	Defense = 40 \n
-    	Attack = .5 \n"
+    	return "Character: Warrior \n \t HP = 125 \n\t Strength = 100 \n\t Defense = 40 \n\t Attack = .5 \n"
     }
 
 }//end class Warrior
