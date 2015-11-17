@@ -18,7 +18,7 @@ public class Monster extends Character {
       =============================================*/
       
     public String about() {
-      return "hello";
+      return "";
     }  
     
     public void normalize() {
