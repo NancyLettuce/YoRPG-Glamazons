@@ -20,6 +20,16 @@ public class Monster extends Character {
     public String about() {
       return "hello";
     }  
+    
+    public void normalize() {
+      _attack*=1;
+      _defense*=1;
+    }
+    public void specialize() {
+      _attack*=1;
+      _defense*=1;
+      
+    }
     public Monster() {
       super();
       _hitPts = 150;
