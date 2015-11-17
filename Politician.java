@@ -20,8 +20,11 @@ public class Politician extends Character {
     	
     }
     
+    
     public String about() {
-    	return "Welcome to class Politician! Your strong voice and the power you hold means you have the most strength of any character \n Yet, your opposition to guns in this game mean you lack defense. #feelthebern";
+    	String retStr="";
+   	retStr+="Welcome to class Politician! Your strong voice and the power you hold means you have the most strength of any character \n Yet, your opposition to guns in this game mean you lack defense. #feelthebern";
+    	retStr+="\t Type:" + _type; + "\n\t Strength:" + _strength + "\n\t Attack:" + _attack + "\n\t Defense" + _defense + "\n\t Life:" + _hitPts;
     }
     public Politician(String name) {
         this();
