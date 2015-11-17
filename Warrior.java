@@ -13,7 +13,7 @@ public class Warrior extends Character {
       _hitPts = 125;
       _strength = 100;
       _defense = 40;
-      _attack = .5;
+      _attack = .6;
       _type= "Warrior";
     }
 
@@ -28,7 +28,7 @@ public class Warrior extends Character {
     }
 
     public void normalize() {
-    	_attack = .5;
+    	_attack = .6;
     	_defense = 40;
     }
     
@@ -38,7 +38,11 @@ public class Warrior extends Character {
     }
     
     public String about() {
-    	return "Character: Warrior \n \t HP = 125 \n\t Strength = 100 \n\t Defense = 40 \n\t Attack = .5 \n";
+        String retStr;
+        retStr+= "Welcome to class Warrior. Warriors have exceptional strength and attack rating, but due their egos have undertaken little defensive measures."
+        retStr+="\t Type:" + _type; + "\n\t Strength:" + _strength + "\n\t Attack:" + _attack + 
+        "\n\t Defense" + _defense + "\n\t Life:" + _hitPts;
+    	return return;
     }
 
 }//end class Warrior
