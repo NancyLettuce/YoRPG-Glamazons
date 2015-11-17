@@ -29,7 +29,7 @@ public class Barista extends Character {
     	String retStr="";
     	retStr+= "Welcome to class Barista! the creator of this role playing game happens to appreciate you very much. You got mad gunz \n from making those wonderful holiday lattes.\n";
     	retStr+="\t Type:" + _type + "\n\t Strength:" + _strength + "\n\t Attack:" + _attack + "\n\t Defense" + _defense + "\n\t Life:" + _hitPts+"";
-    }
+    }	return retStr;
     
     
     
