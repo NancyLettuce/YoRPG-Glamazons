@@ -12,7 +12,7 @@ public class Barista extends Character {
         super();
         _type="Barista";
     	_strength = 200;//Baristas have mad guns from making lattes
-	    _attack = .2;//weaker
+	    _attack = .2;//weaker in battle :(
     }
     
     public void normalize() {
@@ -26,7 +26,9 @@ public class Barista extends Character {
     }
     
     public String about() {
-    	return "Welcome to class Barista! the creator of this role playing game happens to appreciate you very much. You got mad gunz \n from making those wonderful holiday lattes.";
+    	String retStr="";
+    	retStr+= "Welcome to class Barista! the creator of this role playing game happens to appreciate you very much. You got mad gunz \n from making those wonderful holiday lattes.\n";
+    	retStr+="\t Type:" + _type; + "\n\t Strength:" + _strength + "\n\t Attack:" + _attack + "\n\t Defense" + _defense + "\n\t Life:" + _hitPts;
     }
     
     
